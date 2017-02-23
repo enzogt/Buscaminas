@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="enzogt.aliminas">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Corresponde a la pantalla Splash. Despues abrirá la principal. -->
+        <activity
+            android:name=".PantallaSplash"
+            android:screenOrientation="portrait"
+            android:noHistory="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Actividad principal (donde se pondra el tablero). -->
+        <activity
+            android:name=".Principal"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <!-- Es el spinner de seleccion del paquete de iconos. -->
+        <activity
+            android:name=".Iconos"
+            android:theme="@android:style/Theme.Material.Light.Dialog.Alert"
+            android:noHistory="true"
+            android:label="@string/dialogo_iconos_titulo"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <!-- android:noHistory: A value of "true" means that the activity will not leave a historical trace.
+        It will not remain in the activity stack for the task, so the user will not be able to return to it.-->
+
+    </application>
+
+</manifest>

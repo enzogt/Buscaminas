@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#B3D973</color>
+    <color name="colorPrimaryDark">#638908</color>
+    <color name="colorAccent">#D93B48</color>
+
+    <color name="colorBordeBoton">#696969</color>
+    <color name="colorBotonNormal">#FFFFFF</color>
+    <color name="colorBotonSinNada">#BDBDBD</color>
+    <color name="colorBotonNumerado">#D6D6D6</color>
+    <color name="colorBotonMina">#708199d5</color><!-- #87d78b8b / #87b3d973 -->
+    <color name="colorBotonMinaExplotada">#d78b8b</color>
+
+    <color name="colorFondoSplash">#B3D973</color> <!-- #E4F0F0 -->
+
+</resources>

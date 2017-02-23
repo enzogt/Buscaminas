@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">Aliminas</string>
+
+    <!-- Textos iniciales -->
+    <string name="inicio_texto1">Para empezar:</string>
+    <string name="inicio_texto2">Menú > Nuevo juego</string>
+    <string name="inicio_texto3">(puedes configurarlo antes)</string>
+
+    <!-- Texos de las opeciones del menú overflow -->
+    <string name="menu_instrucciones">Instrucciones</string>
+    <string name="menu_nuevoJuego">Nuevo juego</string>
+    <string name="menu_configurarJuego">Dificultad</string>
+    <string name="menu_seleccionaMina">Iconos</string>
+
+    <!-- Textos del dialogo de instrucciones-->
+    <string name="dialogo_titulo">Instrucciones</string>
+    <string name="dialogo_texto">El juego consiste en despejar todas las casillas de una pantalla que no oculten una mina.\n\nAlgunas casillas tienen un número, el cual indica la cantidad de minas que hay en las casillas circundantes.\n\nSi se descubre una casilla sin número indica que ninguna de las casillas vecinas tiene mina y éstas se descubren automáticamente.\n\nSi se descubre una casilla con una mina se pierde la partida</string>
+    <string name="dialogo_boton">¡Vale!</string>
+
+    <!-- Textos del menu contextual de dificultad-->
+    <string name="contextual_nivelBajo">Principiante</string>
+    <string name="contextual_nivelMedio">Amateur</string>
+    <string name="contextual_nivelAlto">Avanzado</string>
+
+    <!-- Textos del dialogo de selección de dificultad. -->
+    <string name="dialogo_dificultad_titulo">Selecciona la dificultad</string>
+    <string name="dialogo_dificultad_nivelBajo">Principiante (8² y 5 minas)</string>
+    <string name="dialogo_dificultad_nivelMedio">Amateur (10² y 10 minas)</string>
+    <string name="dialogo_dificultad_nivelAlto">Avanzado (12² y 25 minas)</string>-->
+    <string name="dialogo_dificultad_botonAfirmativo">Elegir</string>
+    <string name="dialogo_dificultad_botonNegativo">Cancelar</string>
+
+    <!-- Textos del dialogo de selección de los iconos. -->
+    <string name="dialogo_iconos_titulo">Selecciona los iconos</string>
+
+    <string-array name="listado_iconos_nombre">
+        <item>Frutas</item>
+        <item>Hortalizas</item>
+        <item>Bebidas</item>
+        <item>Dulces</item>
+        <item>Preparados</item>
+    </string-array>
+
+    <string-array name="listado_iconos_identificadores">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="listado_iconos_iconos">
+        <item>@drawable/listado_fruta</item>
+        <item>@drawable/listado_hortalizas</item>
+        <item>@drawable/listado_bebidas</item>
+        <item>@drawable/listado_dulces</item>
+        <item>@drawable/listado_procesada</item>
+    </string-array>
+
+    <string-array name="prefijos_paquetes">
+        <item>frutas_</item>
+        <item>hortalizas_</item>
+        <item>bebidas_</item>
+        <item>dulces_</item>
+        <item>procesada_</item>
+    </string-array>
+
+    <!-- Valores de los iconos del Action Bar. -->
+    <string-array name="actionbar_iconos">
+        <item>@mipmap/actionbar_frutas</item>
+        <item>@mipmap/actionbar_hortalizas</item>
+        <item>@mipmap/actionbar_bebidas</item>
+        <item>@mipmap/actionbar_dulces</item>
+        <item>@mipmap/actionbar_preparada</item>
+    </string-array>
+
+    <!-- Rutas de los iconos. -->
+    <string-array name="iconos_banderas">
+        <item>@drawable/numero_uno</item>
+        <item>@drawable/numero_dos</item>
+        <item>@drawable/numero_tres</item>
+        <item>@drawable/numero_cuatro</item>
+        <item>@drawable/numero_cinco</item>
+        <item>@drawable/numero_seis</item>
+        <item>@drawable/numero_siete</item>
+        <item>@drawable/numero_ocho</item>
+    </string-array>
+
+    <!-- Textos del juego en si -->
+    <string name="sinBanderas">No quedan banderas</string>
+    <string name="tituloGanador">¡Has ganado!</string>
+    <string name="tituloPerdedor">Has perdido</string>
+    <string name="textoGanador">Has ganado el juego en {tiempo} y has realizado {pulsaciones} pulsaciones.\n\n¡Eres un fenómeno!</string>
+    <string name="textoPerdedor">Has perdido el juego, con más práctica lo conseguirás.\n\nComo dato has durado {tiempo} y has realizado {pulsaciones} pulsaciones.</string>
+    <string name="botonresultado">Vale</string>
+
+    <!-- Mensajes Splash -->
+    <string-array name="mensajes_splash">
+        <item>Limpiando el tablero de metralla &#8230;</item>
+        <item>Ensamblando nuevas minas &#8230;</item>
+        <item>Remunerando al programador &#8230;</item>
+    </string-array>
+
+</resources>
